@@ -19,21 +19,22 @@ const navLinks = [
 
 const words = [
   { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "APIs", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
   { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "APIs", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 4, suffix: "+", label: "Years of Production Experience" },
+  { value: 6, suffix: "", label: "Companies & Teams Shipped With" },
+  { value: 10, suffix: "+", label: "Technologies in Daily Stack" },
+  { value: 100, suffix: "%", label: "Remote-Ready & Ownership-Driven" },
 ];
+
 
 const logoIconsList = [
   {
@@ -74,18 +75,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Full-Stack Ownership",
+    desc: "Owning features from API design and database schemas through to the UI delivered in the browser.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "AI Engineering",
+    desc: "Shipping production LLM systems with LangChain, LangGraph, RAG, and vector databases on top of OpenAI and Claude.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Remote-Ready Delivery",
+    desc: "Async-first, clear communication, and reliable delivery across time zones — from Addis Ababa to your team.",
   },
 ];
 
@@ -147,39 +148,47 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review:
+      "Shipped a production analytics AI system end-to-end as the sole engineer — RAG over a vector DB, multi-step reasoning with LangGraph, and async streaming FastAPI services backed by OpenAI and Claude.",
+    imgPath: "/images/logo-leoinnovate.png",
+    logoPath: "/images/Leo-Logo.png",
+    title: "AI Engineer — Leo Innovate",
+    date: "March 2026",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built the platform's analytics AI system end-to-end, turning raw CRM and transaction data into natural-language business insights for salon and spa owners.",
+      "Designed a RAG pipeline over a vector database to ground LLM responses in each business's historical clients, appointments, and revenue.",
+      "Orchestrated multi-step reasoning with LangGraph for client retention analysis, peak-hour forecasting, and high-value client identification.",
+      "Integrated OpenAI and Anthropic Claude via LangChain with structured outputs and tool/function calling, behind production FastAPI services with async + streaming endpoints.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review:
+      "Contributing across the full stack of an all-in-one coaching SaaS that has processed £10M+ in client payments — Django REST + Next.js 14 with Stripe billing, Celery jobs, and dozens of third-party integrations.",
+    imgPath: "/images/logo-coachhq.svg",
+    logoPath: "/images/logo-coachhq.svg",
+    logoBg: "bg-white",
+    title: "Full Stack Developer — CoachHQ (hq.coach)",
+    date: "September 2025 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Contribute across the full stack of an all-in-one operating system for online coaches that has processed £10M+ in client payments.",
+      "Build and maintain Django REST Framework APIs on PostgreSQL 15 with Redis caching and Celery + Celery Beat for billing, emails, integrations, and scheduled jobs.",
+      "Develop Next.js 14 (App Router) features with TypeScript, React 18, TanStack Query, Tailwind, and Radix UI across the client-facing app and a separate admin frontend.",
+      "Implemented Stripe subscription billing, signable PDF contracts via WeasyPrint, and secure file storage across AWS S3 and Cloudflare R2.",
+      "Integrated third-party services including Slack, Calendly, Trainerize, Zapier, Google Maps, and Resend for transactional email.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review:
+      "Owned cross-platform mobile apps and Express.js APIs end-to-end — from schema design and optimized PostgreSQL queries through CI/CD deployment.",
+    imgPath: "/images/simba-tech.png",
+    logoPath: "/images/simba-tech.png",
+    logoBg: "bg-white",
+    title: "Full Stack & Mobile Developer — Simba Tech",
+    date: "January 2025 - August 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Built cross-platform mobile apps with React Native using a scalable component architecture and predictable state management.",
+      "Designed and shipped RESTful APIs with Express.js on PostgreSQL, including schema design, optimized queries, auth, and validation.",
+      "Collaborated through Git workflows and CI/CD pipelines, owning features from spec to deploy.",
     ],
   },
 ];
@@ -204,42 +213,42 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Mohammed took a vague analytics brief and turned it into a working AI system in weeks. He shipped the RAG pipeline, the LangGraph workflows, and the FastAPI endpoints himself — and the natural-language insights actually drove decisions for our salon owners.",
     imgPath: "/images/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Mohammed felt like having a senior engineer on the team. He owns features end-to-end — Django APIs, Next.js UI, Stripe billing, Celery jobs — without dropping handoffs. Rare combination of speed and care.",
     imgPath: "/images/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Mohammed is the engineer you want when the problem spans backend, frontend, and AI all at once. He picks up context fast, asks the right questions, and the code he ships is clean and well-documented. Highly recommend.",
     imgPath: "/images/client2.png",
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "We brought Mohammed in for a React Native build and he ended up shipping the Express + PostgreSQL backend too. Schema design, queries, auth — all solid. Remote collaboration was smooth from day one.",
     imgPath: "/images/client5.png",
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "Mohammed's work on our coaching platform has been excellent. He's shipped Stripe subscriptions, signable PDF contracts, and a handful of integrations — and every PR has been thoughtful and well-tested.",
     imgPath: "/images/client4.png",
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Mohammed bridges product thinking and deep technical work better than most engineers I've hired. He understood our requirements, pushed back where it mattered, and delivered a platform that just works.",
     imgPath: "/images/client6.png",
   },
 ];

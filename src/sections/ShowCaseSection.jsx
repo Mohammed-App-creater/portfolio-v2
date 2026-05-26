@@ -49,16 +49,16 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/coachingCrm.png" alt="CoachHQ CRM" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                CoachHQ — A Full-Stack CRM Powering £10M+ in Coaching Payments
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
+                Django REST Framework, PostgreSQL, Redis, and Celery on the backend; Next.js 14 with
+                TypeScript, TanStack Query, Tailwind, and Radix UI on the frontend — with Stripe billing
+                and a dozen third-party integrations.
               </p>
             </div>
           </div>
@@ -67,18 +67,18 @@ const AppShowcase = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
+                  src="/images/analytticsProject%20.png"
+                  alt="Analytics AI for SaaS"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Analytics AI — RAG + LangGraph Insights for Salon & Spa SaaS</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+              <div className="image-wrapper bg-black">
+                <img src="/images/3dPortfoliaow.png" alt="3D Portfolio" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>3D Portfolio — Interactive Developer Site with React & Three.js</h2>
             </div>
           </div>
         </div>
