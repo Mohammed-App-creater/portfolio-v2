@@ -1,10 +1,13 @@
 import { useGSAP } from "@gsap/react";
+import { useGLTF } from "@react-three/drei";
 import gsap from "gsap";
 
 import TitleHeader from "../components/TitleHeader";
 import TechIconCardExperience from "../components/models/tech_logos/TechIconCardExperience";
 import { techStackIcons } from "../constants";
 // import { techStackImgs } from "../constants";
+
+techStackIcons.forEach((icon) => useGLTF.preload(icon.modelPath));
 
 const TechStack = () => {
   // Animate the tech cards in the skills section
