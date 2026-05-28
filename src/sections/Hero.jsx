@@ -57,18 +57,20 @@ const Hero = () => {
               <h1>results that matter.</h1>
             </div>
             <p className="text-white-50 md:text-xl relative  z-10 pointer-events-none">
-              Hi, I'm Mohammed a Full-Stack Developer & AI Engineer <br/>shipping production SaaS and LLM systems from Addis Ababa.
+              Hi, I'm Mohammed a Full-Stack Developer & AI Engineer <br/>shipping production SaaS and LLM systems.
             </p>
-            <div className="flex flex-wrap items-center gap-4">
+            <div className="flex items-center gap-3 md:gap-4">
               <Button
                 className="md:w-60 md:h-18 w-48 h-12"
                 id="counter"
                 text="See my work"
               />
+
+              {/* Desktop: full Download CV button */}
               <a
                 href="/Mohammed_Ismail_Resume.docx"
                 download
-                className="cta-wrapper md:w-60 md:h-18 w-48 h-12"
+                className="cta-wrapper hidden md:block md:w-60 md:h-18"
               >
                 <div className="cta-button group">
                   <div className="bg-circle" />
@@ -81,6 +83,20 @@ const Hero = () => {
                     />
                   </div>
                 </div>
+              </a>
+
+              {/* Mobile: compact icon-only download button */}
+              <a
+                href="/Mohammed_Ismail_Resume.docx"
+                download
+                aria-label="Download CV"
+                className="md:hidden flex-none w-12 py-4 mt-2 flex items-center justify-center rounded-2xl bg-white-50 active:bg-white transition-colors"
+              >
+                <img
+                  src="/images/cv-download.svg"
+                  alt="Download CV"
+                  className="size-6 animate-bounce"
+                />
               </a>
             </div>
 

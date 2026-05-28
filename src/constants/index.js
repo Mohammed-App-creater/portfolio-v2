@@ -86,7 +86,7 @@ const abilities = [
   {
     imgPath: "/images/time.png",
     title: "Remote-Ready Delivery",
-    desc: "Async-first, clear communication, and reliable delivery across time zones — from Addis Ababa to your team.",
+    desc: "Async-first, clear communication, and reliable delivery across time zones  from Addis Ababa to your team.",
   },
 ];
 
@@ -168,7 +168,7 @@ const expCards = [
     logoPath: "/images/logo-coachhq.svg",
     logoBg: "bg-white",
     title: "Full Stack Developer — CoachHQ (hq.coach)",
-    date: "September 2025 - Present",
+    date: "March 2026 - Present",
     responsibilities: [
       "Contribute across the full stack of an all-in-one operating system for online coaches that has processed £10M+ in client payments.",
       "Build and maintain Django REST Framework APIs on PostgreSQL 15 with Redis caching and Celery + Celery Beat for billing, emails, integrations, and scheduled jobs.",
@@ -184,7 +184,7 @@ const expCards = [
     logoPath: "/images/simba-tech.png",
     logoBg: "bg-white",
     title: "Full Stack & Mobile Developer — Simba Tech",
-    date: "January 2025 - August 2025",
+    date: "January 2025 - Present",
     responsibilities: [
       "Built cross-platform mobile apps with React Native using a scalable component architecture and predictable state management.",
       "Designed and shipped RESTful APIs with Express.js on PostgreSQL, including schema design, optimized queries, auth, and validation.",
